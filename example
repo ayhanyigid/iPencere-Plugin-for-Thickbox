@@ -4,6 +4,8 @@ iPencere Example
 How to use with ajax?
 
 
+// Open iPencere
+
 $.fn.iPencere({
         TextHtml: '<p>Loading.. Please wait.</p>',
         Init: function(){
@@ -20,3 +22,8 @@ $.fn.iPencere({
         	});
         }
 });
+
+
+// Close iPencere
+
+$.fn.iPencere({ Close: true });
