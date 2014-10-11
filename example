@@ -5,7 +5,7 @@ How to use with ajax?
 
 
 $.fn.iPencere({
-        TextHtml: '<img src="loading.gif">'+'<p>Loading.. Please wait.</p>',
+        TextHtml: '<p>Loading.. Please wait.</p>',
         Init: function(){
         $.ajax({
         	type: "POST", // or GET
